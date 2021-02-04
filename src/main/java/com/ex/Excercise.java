@@ -30,9 +30,9 @@ public class Excercise {
         try {
             s = cons.newInstance();
         } catch (IllegalAccessException e) {
-            fatalError("생성자에 접근할 수 없습니다.");
+            fatalError("생성자에 접근할 수 없습니다.11");
         } catch (InstantiationException e) {
-            fatalError("클래스를 인스턴스화할 수 없습니다.");
+            fatalError("클래스를 인스턴스화할 수 없습니다.2");
         } catch (InvocationTargetException e) {
             fatalError("생성자가 예외를 던졌습니다: " + e.getCause());
         } catch (ClassCastException e) {
