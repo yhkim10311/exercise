@@ -11,7 +11,9 @@ public class Human implements Creature{
 
     void defaultTest(){}
 
-    protected void protectedTest(){}
+    protected void protectedTest(){
+        System.out.println("hello");
+    }
 
     private void privateTest(){}
 }
