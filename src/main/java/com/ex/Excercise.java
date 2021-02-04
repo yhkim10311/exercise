@@ -14,7 +14,7 @@ public class Excercise {
             cl = (Class<? extends Set<String>>) // 비검사 형변환!
                     Class.forName(args[0]);
         } catch (ClassNotFoundException e) {
-            fatalError("클래스를 찾을 수 없습니다.");
+            fatalError("클래스를 찾을 수 없습니다.11");
         }
 
         // 생성자를 얻는다.
@@ -22,7 +22,7 @@ public class Excercise {
         try {
             cons = cl.getDeclaredConstructor();
         } catch (NoSuchMethodException e) {
-            fatalError("매개변수 없는 생성자를 찾을 수 없습니다.");
+            fatalError("매개변수 없는 생성자를 찾을 수 없습니다.11");
         }
 
         // 집합의 인스턴스를 만든다.
