@@ -32,11 +32,11 @@ public class Excercise {
         } catch (IllegalAccessException e) {
             fatalError("생성자에 접근할 수 없습니다.11");
         } catch (InstantiationException e) {
-            fatalError("클래스를 인스턴스화할 수 없습니다.2");
+            fatalError("클래스를 인스턴스화할 수 없습니다.12");
         } catch (InvocationTargetException e) {
-            fatalError("생성자가 예외를 던졌습니다: " + e.getCause());
+            fatalError("생성자가 예외를 던졌습니다: 1" + e.getCause());
         } catch (ClassCastException e) {
-            fatalError("Set을 구현하지 않은 클래스입니다.");
+            fatalError("Set을 구현하지 않은 클래스입니다.1");
         }
 
         // 생성한 집합을 사용한다.
