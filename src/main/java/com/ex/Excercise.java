@@ -8,6 +8,16 @@ import java.util.Set;
 
 public class Excercise {
     public static void main(String[] args) {
+        int[] arr ;
+        int index = 0;
+        for(arr= new int[5];;){
+            if(index==10){
+
+            }else{
+                break;
+            }
+        }
+
         // 클래스 이름을 Class 객체로 변환
         Class<? extends Set<String>> cl = null;
         try {
@@ -24,6 +34,7 @@ public class Excercise {
         } catch (NoSuchMethodException e) {
             fatalError("매개변수 없는 생성자를 찾을 수 없습니다.11");
         }
+
 
         // 집합의 인스턴스를 만든다.
         Set<String> s = null;
