@@ -16,4 +16,6 @@ public class Human implements Creature{
     }
 
     private void privateTest(){}
+
+    private void cherryTest(){}
 }
