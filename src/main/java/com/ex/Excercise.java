@@ -72,7 +72,7 @@ class Thread_1 extends Thread {
         }
         for(int i=0; i<300; i++) System.out.print("-");
 
-        System.out.print("<<th1 end>>");
+        System.out.print("<<th1 end>>>>>>>");
     }
 }
 
