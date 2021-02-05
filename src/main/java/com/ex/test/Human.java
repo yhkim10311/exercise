@@ -6,7 +6,7 @@ public class Human implements Creature{
 
     @Override
     public void test(){
-        System.out.println("test method overriden");
+        System.out.println("test method overriden1");
     };
 
     void defaultTest(){}
