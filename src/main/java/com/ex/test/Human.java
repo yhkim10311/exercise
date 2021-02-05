@@ -12,7 +12,7 @@ public class Human implements Creature{
     void defaultTest(){}
 
     protected void protectedTest(){
-        System.out.println("hello");
+        System.out.println("hello123");
     }
 
     private void privateTest(){}
