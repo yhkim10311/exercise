@@ -9,6 +9,5 @@ public class OtherPackageClass implements Creature {
         Creature human = new Human();
         human.test();
         System.out.println("Hello World");
-        System.out.println("Hello World2");
     }
 }
