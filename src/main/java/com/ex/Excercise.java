@@ -59,7 +59,7 @@ class Thread_1 extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        for(int i=0; i<300; i++) System.out.print("-");
+        for(int i=0; i<300; i++) System.out.print("--");
 
         System.out.print("<<th1 end>>>>>>>");
     }
