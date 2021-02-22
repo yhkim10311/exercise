@@ -19,7 +19,9 @@ public class Human implements Creature{
         System.out.println("something");
     }
 
-    private void cherryTest(){}
+    private void cherryTest(){
+        System.out.println("second cherry");
+    }
 
     private void cherry2(){}
 }
