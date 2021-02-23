@@ -23,5 +23,7 @@ public class Human implements Creature{
         System.out.println("second cherry");
     }
 
-    private void cherry2(){}
+    private void cherry2(){
+        System.out.println("lol");
+    }
 }
