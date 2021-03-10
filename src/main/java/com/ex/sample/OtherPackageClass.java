@@ -10,4 +10,8 @@ public class OtherPackageClass implements Creature {
         human.test();
         System.out.println("Hello World");
     }
+
+    public void test(String a){
+
+    }
 }
