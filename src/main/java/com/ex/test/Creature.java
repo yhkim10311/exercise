@@ -8,8 +8,4 @@ public interface Creature {
     public default void test(){
         System.out.println("test class is here");
     };
-
-    static void test2() {
-        System.out.println("test 2");
-    }
 }

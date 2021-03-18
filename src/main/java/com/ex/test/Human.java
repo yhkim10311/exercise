@@ -4,10 +4,10 @@ public class Human implements Creature{
 
     public boolean isTrue(){ return true;}
 
-//    @Override
-//    public void test(){
-//        System.out.println("test method overriden1");
-//    };
+    @Override
+    public void test(){
+        System.out.println("test method overriden1");
+    };
 
     void defaultTest(){}
 
